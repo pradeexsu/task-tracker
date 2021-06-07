@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <!-- gogle matrical icon -->
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons">
+
+    <!-- google quicksand font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
+
+
+
+<style>
+  
+  html, body {
+    background-image: linear-gradient(135deg, #fff, rgb(174, 213, 253));
+    background-size: 300%;
+    background-position:left;
+    animation: bg-ani 5s infinite alternate;
+    font-size:1.1rem;
+    font-family:'Quicksand', sans-serif;
+    height:100%;
+  }
+  @keyframes bg-ani {
+  0%{
+      background-position: left;
+  }
+  100%{
+      background-position: right;
+  }
+  }
+
+    </style>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body >      
+    <div id="app" >        
+      </div>
+
+  </body>
+</html>
