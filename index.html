@@ -1,45 +1,53 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-    <!-- gogle matrical icon -->
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons">
 
-    <!-- google quicksand font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+  <!-- gogle matrical icon -->
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons">
+
+  <!-- google quicksand font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 
 
 
-<style>
-  
-  html, body {
-    background-image: linear-gradient(135deg, #fff, rgb(174, 213, 253));
-    background-size: 300%;
-    background-position:left;
-    animation: bg-ani 5s infinite alternate;
-    font-size:1.1rem;
-    font-family:'Quicksand', sans-serif;
-    height:100%;
-  }
-  @keyframes bg-ani {
-  0%{
+  <style>
+    html,
+    body {
+      background-image: linear-gradient(135deg, #fff, rgb(174, 213, 253));
+      background-size: 300%;
       background-position: left;
-  }
-  100%{
-      background-position: right;
-  }
-  }
+      animation: bg-ani 5s infinite alternate;
+      font-size: 1.1rem;
+      font-family: 'Quicksand', sans-serif;
+      height: 100%;
+    }
 
-    </style>
-    <title>task-tracker</title>
-  <link href="/js/app.js" rel="preload" as="script"><link href="/js/chunk-vendors.js" rel="preload" as="script"></head>
-  <body >      
-    <div id="app" >        
-      </div>
+    @keyframes bg-ani {
+      0% {
+        background-position: left;
+      }
 
-  <script type="text/javascript" src="/js/chunk-vendors.js"></script><script type="text/javascript" src="/js/app.js"></script></body>
+      100% {
+        background-position: right;
+      }
+    }
+  </style>
+  <title>task-tracker</title>
+  <link href="./js/app.js" rel="preload" as="script">
+  <link href="./js/chunk-vendors.js" rel="preload" as="script">
+</head>
+
+<body>
+  <div id="app">
+  </div>
+
+  <script type="text/javascript" src="./js/chunk-vendors.js"></script>
+  <script type="text/javascript" src="./js/app.js"></script>
+</body>
+
 </html>
